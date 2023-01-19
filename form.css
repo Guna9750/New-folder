@@ -1,0 +1,20 @@
+ body{
+    background-color:skyblue;
+    margin: 1px;
+
+}
+table{
+        background-color: aliceblue;
+     height: 500px;
+     width: 90%;
+   
+        
+margin: 50px;
+}
+
+ #btn{
+        color:rgb(255, 255, 255) ;
+        background-color: rgb(248, 7, 7);
+   
+ }     
+ 

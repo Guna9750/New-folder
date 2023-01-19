@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <input type="checkbox" id="s1" value="=ram">ram
+        <input type="checkbox" id="s2" value="=raja">raja
+        <input type="checkbox" id="s3" value="=ragu">ragu
+        <button value="SUBMIT" onclick="val()">SUBMIT</button>
+        <h1 id="AA1">HI</h1>
+    </body>
+    <script>
+        function val() 
+        {
+        let a1=document.getElementById("s1");
+        let a2=document.getElementById("s2");
+        let a3=document.getElementById("s3");
+            if(a1.checked==true)
+            {
+               
+               document.getElementById("AA1").innerHTML="ram";
+            }
+           else if(a2.checked==true)
+            {
+               
+               document.getElementById("AA1").innerHTML="raja";
+            }
+            else if(a3.checked==true)
+            {
+                document.getElementById("AA1").innerHTML="ragu";
+            }
+            else
+            {
+                alert("enter the value");
+            }
+
+        }
+
+    </script>
+</html>
